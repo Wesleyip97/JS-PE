@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="PEopdracht.css">
+    <title>PE OPDRACHT</title>
+</head>
+
+<body>
+    <section class="container">
+        <h1>Registreer</h1>
+        <p>Meld je aan Anoroc Service, We beschermen jouw software tegen Malware!</p>
+        <section class="row">
+            <div class="col-md">
+                <div class="row">
+                    <div class="col-md">
+                        <form>
+                            <div class="row">
+                                <div class="col-md">
+                                    <label for="Voornaam" class="form-label">Voornaam</label>
+                                    <input type="text" class="form-control" id="voornaam" placeholder="uw voornaam">
+                                </div>
+                                <div class="col-md">
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Naam</label>
+                                        <input type="text" class="form-control" id="naam" placeholder="uw naam">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md">
+                                    <div class="col-auto">
+                                        <label class="sr-only" for="inlineFormInputGroup">Gebruikersnaam</label>
+                                        <div class="input-group mb-2">
+                                            <div class="input-group-prepend">
+                                                <div class="input-group-text">@</div>
+                                            </div>
+                                            <input type="text" class="form-control" id="gebruikersnaam" placeholder="u911236">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md">
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">E-mailadres</label>
+                                        <input type="email" class="form-control" id="email" placeholder="mail@example.be">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md">
+                                    <div class="col-md">
+                                        <label for="Wachtwoord" class="form-label">Wachtwoord</label>
+                                        <input type="password" class="form-control" id="wachtwoord1" aria-describedby="emailHelp">
+                                        <small id="emailHelp" class="form-text text-muted">Je wachtwoord moet minstens 8 tekens Lang zijn</small>
+                                    </div>
+                                </div>
+                                <div class="col-md">
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Herhaal wachtwoord</label>
+                                        <input type="password" class="form-control" id="wachtwoord2">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md">
+                                    <label for="inputAddress">Adres</label>
+                                    <input type="text" class="form-control" id="adres" placeholder="Uw adres en huisnummer">
+                                </div>
+                            </div>
+                            <div class="row mb-5">
+                                <div class="col-md">
+                                    <div class="form-group col-md">
+                                        <label for="inputState">Land</label>
+                                        <select id="land" class="form-control">
+        <option selected>Kies een Land</option>
+                    <option>België</option>
+                    <option>Nederland</option>
+                    <option>USA</option>
+                    <option>UK</option>
+                    <option>Frankrijk</option>
+                    <option>Duitsland</option>
+                    </select>
+                                    </div>
+                                </div>
+                                <div class="col-md">
+                                    <div class="form-group col-md">
+                                        <label for="inputState">Provincie</label>
+                                        <select id="provincie" class="form-control">
+        <option selected>Kies een Provincie</option>
+                    <option>Antwerpen</option>
+                    <option>Henegouwen</option>
+                    <option>Limburg</option>
+                    <option>Luik</option>
+                    <option>Luxemburg</option>
+                    <option>Namen</option>
+                    <option>Oost-Vlaanderen</option>
+                    <option>Vlaams-Brabant</option>
+                    <option>Waals-Brabant</option>
+                    <option>West-Vlaanderen</option>
+                    </select>
+                                    </div>
+
+                                </div>
+                                <div class="col-md">
+                                    <label for="text" class="form-label">Postcode</label>
+                                    <input type="number" class="form-control" id="postcode">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md">
+                                    <label for="inputpayment"><h3>Hou me op de hoogte</h3></label>
+                                    <div class="mb-3 form-check">
+                                        <input type="checkbox" class="form-check-input" id="checkbox1">
+                                        <label class="form-check-label" for="exampleCheck1">Inschrijven voor onze nieuwsbrief</label>
+                                    </div>
+                                    <div class="mb-3 form-check">
+                                        <input type="checkbox" class="form-check-input" id="checkbox2">
+                                        <label class="form-check-label" for="exampleCheck1">Ik ga akkoort met de algemene voorwaarden</label>
+                                    </div>
+                                </div>
+                                <div class="col-md mb-4">
+                                    <label for="inputpayment"><h3>betaling</h3></label>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="betalingbankingapp" name="customRadio" class="custom-control-input">
+                                        <label class="custom-control-label" for="betalingchoise">Banking app</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="betalingoverschrijving" name="customRadio" class="custom-control-input">
+                                        <label class="custom-control-label" for="betalingchoise">Overschrijving</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="betalingvisa" name="customRadio" class="custom-control-input">
+                                        <label class="custom-control-label" for="betalingchoise">Visa Card</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="betalingpaypal" name="customRadio" class="custom-control-input">
+                                        <label class="custom-control-label" for="betalingchoise">Paypal</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-5">
+                                <div class="row">
+                                    <button class="btn btn-primary" id="versturenbtn" type="submit">Wave your magic wand</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="alert alert-danger" role="alert" id="rood">
+                    <h4>Yikes,Error..</h4>
+                    <p id="errortekst"></p>
+                </div>
+                <div class="alert alert-success" role="alert" id="groen">
+                    <h4>Goed gedaan</h4>
+                    <p>Aww Yeah, je werd geregistreerd</p>
+                </div>
+                <div class="alert alert-info" role="alert" id="blauw">
+                    <h4>Betalingsbewijs</h4>
+                    <p id="betalingsbewijstekst"></p>
+                </div>
+            </div>
+        </section>
+
+    </section>
+
+
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
